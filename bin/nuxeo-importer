@@ -25,6 +25,7 @@ if (program.args.length < 2) {
 
 if (program.verbose) {
   console.log('');
+  console.log('Forked version by jroussel');
   console.log('Configuration');
   console.log('  baseURL: ' + program.baseURL);
   console.log('  username: ' + program.username);
